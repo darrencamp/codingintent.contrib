@@ -3,3 +3,7 @@ Library for general bits and pieces
 
 StringExtensions
 * SplitOnNewline
+
+HttpExtensions
+* Post
+* Get
