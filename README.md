@@ -1,2 +1,5 @@
-# Coding Intent Contrib library
-Library for bits and pieces
+# Coding Intent contrib library
+Library for general bits and pieces
+
+StringExtensions
+* SplitOnNewline
