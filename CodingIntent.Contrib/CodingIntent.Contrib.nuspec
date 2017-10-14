@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>CondingIntent.Contrib</id>
+    <id>CodingIntent.Contrib</id>
     <version>1.0.0</version>
     <authors>CodingIntent</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
