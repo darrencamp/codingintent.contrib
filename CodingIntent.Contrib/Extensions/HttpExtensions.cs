@@ -24,7 +24,21 @@ namespace CodingIntent.Contrib.Extensions
 			{
 				throw new HttpRequestException($"{response.ReasonPhrase} ({response.StatusCode})");
 			}
+		}
 
+		public static async Task<T> Get<T>(this HttpClient http, string action)
+		{
+			var response = await http.GetAsync(action);
+			if (response.IsSuccessStatusCode)
+			{
+				var jsonResponse = await response.Content.ReadAsStringAsync();
+				var typedResponse = JsonConvert.DeserializeObject<T>(jsonResponse);
+				return typedResponse;
+			}
+			else
+			{
+				throw new HttpRequestException($"{response.ReasonPhrase} ({response.StatusCode})");
+			}
 		}
 	}
 }
