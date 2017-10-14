@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodingIntent.Contrib
+namespace CodingIntent.Contrib.Extensions
 {
     public static class StringExtensions
     {
