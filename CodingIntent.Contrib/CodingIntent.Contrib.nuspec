@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>CodingIntent.Contrib</id>
+    <id>CodingIntent</id>
     <version>1.0.0</version>
     <authors>CodingIntent</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Coding Intent contrib library</description>
   </metadata>
   <files>
-    <file src="bin\Release\netstandard1.6\*.*" target="lib" />
+    <file src="bin\Release\netstandard2.0\*.*" target="lib" />
   </files>
 </package>
